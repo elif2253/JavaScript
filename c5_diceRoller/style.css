@@ -1,0 +1,41 @@
+#container{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+input{
+    font-size: 2rem;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+}
+
+button{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(240, 64%, 27%);
+    color: azure;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(240, 64%, 15%);
+}
+
+button:active{
+    background-color: hsl(240, 64%, 5%);
+}
+
+#diceResult{
+    margin: 25px;
+}
+
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
