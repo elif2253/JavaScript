@@ -1,0 +1,48 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+}
+
+form{
+    text-align: center;
+    background-color: snow;
+    max-width: 350px;
+    margin: auto;
+    padding: 30px 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.278);
+    border-radius: 30px;
+}
+
+#textBox{
+    width: 50%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:2px solid rgba(0, 0, 0, 0.473);
+    font-size: 20px;
+}
+
+label{
+    font-size: 1.1em;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px, 15px;
+    font-size: 1.08em;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.29);
+    transition: background-color 0.25s;
+}
+
+button:hover{
+    background-color: rgb(79, 130, 225);
+}
+
+#result{
+    font-size: 1.08em;
+    font-weight: bold;
+}
